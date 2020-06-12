@@ -10,7 +10,6 @@ public class IndexController {
 
     @RequestMapping("/getIndex")
     public String getIndex(){
-        System.out.println("添加贮藏的代码");
         System.out.println("第二个分支上面的提交代码");
         return "nihao";
     }
